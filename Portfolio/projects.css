@@ -1,0 +1,116 @@
+.project {
+    float: left;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+
+
+.maintitle{
+    display: block;
+    margin-right: 35px;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.title1{
+    margin-top: 20px;
+    margin-right: 140px;
+    margin-bottom: 5px;
+    font-size: 32pt;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.title2{
+    display: block;
+    margin-right: 60px;
+    font-size: 10pt;
+    font-family: serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    
+    
+}
+
+.title3{
+    display: block;
+    text-align: left;
+    margin-left: 200px;
+    line-height: 20px;
+    font-size: 12pt;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+  a.button{
+    webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    line-height: 43px;
+
+    margin: 40px auto;
+    display: inline-block;
+    width: 550px;
+    height: 200px;
+    border:2px solid black;
+    background-color: rgba(255,255,255,0);
+    color:black;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 11pt;
+    border-radius: 8px;
+    transition: background-color 500ms, color 500ms;
+    margin: 30px;
+    text-align: center;
+
+    
+    
+}
+
+ a.button:hover {
+    background-color: rgb(80, 91, 97);
+    color: whitesmoke;
+    cursor:pointer;
+    transition: background-color 500ms, color 500ms;
+}
+
+a.smallbutton{
+    webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    line-height: 43px;
+
+    margin-bottom: 60px;
+    display: inline-block;
+    width: 70px;
+    height: 32px;
+    border:2px solid black;
+    background-color: rgba(255,255,255,0);
+    color:black;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 11pt;
+    border-radius: 12px;
+    transition: background-color 500ms, color 500ms;
+    margin: 30px;
+    text-align: center;
+    
+    
+}
+
+ a.smallbutton:hover {
+    background-color: rgb(80, 91, 97);
+    color: whitesmoke;
+    cursor:pointer;
+    transition: background-color 500ms, color 500ms;
+}
