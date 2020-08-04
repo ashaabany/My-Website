@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+    
+}
+
+.pictures {
+    width:100px;
+    height:100px;
+    margin: auto;
+    position: absolute;
+    top:80px; bottom:0px; right:1100px; left:0px;
+    display: block;
+    
+}
+
+.about{
+    width:500px;
+    height:300px;
+    margin-left: 600px;
+    margin-top: 70px;
+    position: absolute;
+    top:0px; bottom:200px; right:800px; left:0px;
+    display: block;
+    text-align: left;
+}
+
+.pictures{
+    display: block;
+}
+
+.me{
+    position: absolute;
+    bottom:29px;
+}
+
+.fade{
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.title1{
+    display:block;
+    color: black;
+    font-size: 35pt;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.title2{
+    display: block;
+    margin-top: 20px;
+    color: rgb(80, 91, 97);
+    font-size: 12pt;
+    font-family: serif;
+}
+
+
+a.button{
+    webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    line-height: 43px;
+
+    margin: 40px auto;
+    display: inline-block;
+    width: 70px;
+    height: 32px;
+    border:2px solid black;
+    background-color: rgba(255,255,255,0);
+    color:black;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 11pt;
+    border-radius: 12px;
+    transition: background-color 500ms, color 500ms;
+    margin: 30px;
+    text-align: center;
+    
+    
+}
+
+ a.button:hover {
+    background-color: rgb(80, 91, 97);
+    color: whitesmoke;
+    cursor:pointer;
+    transition: background-color 500ms, color 500ms;
+}
+
