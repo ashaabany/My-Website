@@ -24,20 +24,26 @@ body {
     text-align: left;
 }
 
-.pictures{
-    display: block;
-}
+
 
 .me{
     position: absolute;
-    bottom:29px;
+    top:20px;
+    bottom:300px;
+    left: 120px;
+    display: block;
 }
 
 .fade{
     position: absolute;
-    bottom: 0px;
+    top: 310px;
+    bottom:300px;
+    left: 120px;
     z-index: 2;
+    display: block;
 }
+
+
 
 .title1{
     display:block;
