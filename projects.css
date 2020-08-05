@@ -81,6 +81,8 @@
     transition: background-color 500ms, color 500ms;
 }
 
+
+
 a.smallbutton{
     webkit-appearance: button;
     -moz-appearance: button;
@@ -89,6 +91,7 @@ a.smallbutton{
     text-decoration: none;
     color: initial;
     line-height: 43px;
+    
 
     margin-bottom: 60px;
     display: inline-block;
@@ -104,6 +107,7 @@ a.smallbutton{
     transition: background-color 500ms, color 500ms;
     margin: 30px;
     text-align: center;
+    position: absolute;
     
     
 }
