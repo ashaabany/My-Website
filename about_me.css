@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap');
+
+
 body {
     background-color: white;
     
@@ -48,9 +51,9 @@ body {
 .title1{
     display:block;
     color: black;
-    font-size: 35pt;
+    font-size: 40pt;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: "Assistant", "san-serif";
 }
 
 .title2{
