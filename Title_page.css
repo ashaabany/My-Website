@@ -38,8 +38,8 @@ a.button{
     color: initial;
     line-height: 40px;
 
-    margin: 35px auto;
-    margin-bottom: -5px;
+    margin: 30px auto;
+    margin-bottom: -4px;
     display: inline-block;
     width: 125px;
     height: 40px;
@@ -49,8 +49,11 @@ a.button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 10pt;
     border-radius: 5px;
+    margin-left: 3px;
+   
+    margin-right: 3px;
     transition: background-color 500ms, color 500ms, font-size 100ms;
-    margin-left: 12px;
+  
     box-shadow:0 0 .15em rgba(0,0,0,.25)
     
     
@@ -126,16 +129,11 @@ html {
   }
   
   .Iam {
-    padding: 3em 1em;
-    font: normal 20px/30px Montserrat, sans-serif;
-    color: rgb(116, 130, 138);
-    text-align: center;
-    margin-top: -57px;
-    margin-bottom: 10px;
-    margin-left: 140px;
-    position: relative;
-
-
+    padding: 2em 6em;
+    font: normal 25px/31px Montserrat, sans-serif;
+    color: black;
+    margin-top: -60px ;
+    margin-bottom: 20px;
   }
   .Iam p {
     height: 30px;
@@ -146,8 +144,8 @@ html {
     float: left;
     overflow: hidden;
     position: relative;
-    height: 28px;
-    top: 20px;
+    height: 31px;
+    top: 25px;
   }
   .Iam .innerIam {
     display: inline-block;
@@ -159,11 +157,11 @@ html {
   
   
   /*animation*/
-  -webkit-animation:move 6s;
-     -moz-animation:move 6s;
-      -ms-animation:move 6s;
-       -o-animation:move 6s;
-          animation:move 6s;
+  -webkit-animation:move 5s;
+     -moz-animation:move 5s;
+      -ms-animation:move 5s;
+       -o-animation:move 5s;
+          animation:move 5s;
   /*animation-iteration-count*/
   -webkit-animation-iteration-count:infinite;
      -moz-animation-iteration-count:infinite;
@@ -179,40 +177,42 @@ html {
   }
   @keyframes move{
   0%  { top: 0px; }
-  20% { top: -30px; }
-  40% { top: -60px; }
-  60% { top: -90px; }
-  80% { top: -120px; }
+  20% { top: -31px; }
+  40% { top: -62px; }
+  60% { top: -93px; }
+  80% { top: -124px; }
   }
   
   @-webkit-keyframes move {
     0%  { top: 0px; }
-    20% { top: -30px; }
-    40% { top: -60px; }
-    60% { top: -90px; }
-    80% { top: -120px; }
+  20% { top: -31px; }
+  40% { top: -62px; }
+  60% { top: -93px; }
+  80% { top: -124px; }
   }
   @-moz-keyframes move {
     0%  { top: 0px; }
-    20% { top: -30px; }
-    40% { top: -60px; }
-    60% { top: -90px; }
-    80% { top: -120px; }
+  20% { top: -31px; }
+  40% { top: -62px; }
+  60% { top: -93px; }
+  80% { top: -124px; }
   }
   @-o-keyframes move {
     0%  { top: 0px; }
-    20% { top: -30px; }
-    40% { top: -60px; }
-    60% { top: -90px; }
-    80% { top: -120px; }
+  20% { top: -31px; }
+  40% { top: -62px; }
+  60% { top: -93px; }
+  80% { top: -124px; }
   }
   @keyframes move {
     0%  { top: 0px; }
-    20% { top: -30px; }
-    40% { top: -60px; }
-    60% { top: -90px; }
-    80% { top: -120px; }
+  20% { top: -31px; }
+  40% { top: -62px; }
+  60% { top: -93px; }
+  80% { top: -124px; }
   }
+
+
 
 
 
